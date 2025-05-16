@@ -228,3 +228,10 @@ body {
 .monthly-pro ul li {
     list-style: none;
 }
+
+@media screen and (max-width: 520px) {
+    .tab-monthly {
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+}
